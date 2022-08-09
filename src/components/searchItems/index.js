@@ -15,7 +15,7 @@ const SearchItem = props => {
         <img src={logoUrl} alt="domain logo" className="logo" />
         <div className="card">
           <div className="title-card">
-            <h1 className="title-name">{title}</h1>
+            <p className="title-name">{title}</p>
             <p className="domain-url">{domainUrl}</p>
           </div>
           <button
